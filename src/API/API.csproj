@@ -8,13 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Partners\iWyze\**" />
-    <Content Remove="Partners\iWyze\**" />
-    <EmbeddedResource Remove="Partners\iWyze\**" />
-    <None Remove="Partners\iWyze\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
