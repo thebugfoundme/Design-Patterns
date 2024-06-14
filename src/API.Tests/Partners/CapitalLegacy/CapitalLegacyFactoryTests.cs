@@ -11,7 +11,7 @@ namespace API.Tests.Partners.CapitalLegacy
 {
     internal class CapitalLegacyFactoryTests
     {
-        private CapitalLegacyInsuranceFactory CreateFactory()
+        private IInsuranceFactory CreateFactory()
         {
             return new CapitalLegacyInsuranceFactory();
         }
